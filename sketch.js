@@ -1,4 +1,4 @@
-//variáveis da bolinha
+//variáveis do bolão
 let xBolinha = 100;
 let yBolinha = 200;
 let diametro = 20;
@@ -31,7 +31,7 @@ function setup() {
 
 function draw() {
     background(0);
-    mostraBolinha();
+    mostraBolão();
     movimentaBolinha();
     verificaColisaoBorda();
     mostraRaquete(xRaquete, yRaquete);
@@ -43,7 +43,7 @@ function draw() {
     incluiPlacar() 
     marcaPonto();
 }
-function mostraBolinha() {
+function mostraBolão() {
   circle(xBolinha, yBolinha, diametro);
 }
 
